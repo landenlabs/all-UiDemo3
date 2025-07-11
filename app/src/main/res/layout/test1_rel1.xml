@@ -17,12 +17,16 @@
 
     <EditText
         android:id="@+id/data"
+        android:inputType="text"
+        android:imeOptions="actionNext"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/label1"
         android:layout_alignParentStart="true"
         android:layout_toLeftOf="@+id/unit"
         android:background="#444"
+        android:textColor="#fff"
+        android:textColorHint="#888"
         android:foreground="@drawable/fg_panel"
         android:hint="Elevation nnn.nn"
         android:textSize="24dp" />

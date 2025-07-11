@@ -37,15 +37,23 @@
             app:layout_constraintTop_toBottomOf="@+id/test1_title">
 
             <LinearLayout
+               android:layout_marginVertical="10dp"
                 android:id="@+id/test1_row1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_panel"
                 android:orientation="horizontal">
 
+                <!--
+                    android:nextFocusDown="@id/row2_cell1"
+                    android:nextFocusRight="@id/row1_cell2"
+                    android:nextFocusForward="@id/row1_cell2"
+                    android:nextFocusDown="@id/row1_cell2"
+                    android:nextFocusRight="@id/row1_cell2"
+
+                -->
                 <include
                     android:id="@+id/row1_cell1"
-                    android:nextFocusForward="@id/row1_cell2"
                     layout="@layout/test1_rel1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -56,8 +64,10 @@
                 -->
 
                 <include
-                    android:nextFocusForward="@id/row1_cell3"
-
+                    android:imeOptions="actionNext"
+                    android:nextFocusRight="@id/row1_cell3"
+                    android:nextFocusLeft="@id/row1_cell1"
+                    android:nextFocusDown="@id/row2_cell2"
                     android:id="@+id/row1_cell2"
                     layout="@layout/test1_rel1"
                     android:layout_width="0dp"
