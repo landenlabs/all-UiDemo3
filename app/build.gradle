@@ -3,31 +3,31 @@ plugins {
 }
 
 android {
-    namespace 'landenlabs.all_uicomponents'
-    compileSdk 35
+    namespace = 'landenlabs.all_uicomponents'
+    compileSdk = 36
 
     defaultConfig {
-        applicationId "landenlabs.all_uicomponents"
-        minSdk 26
-        targetSdk 35
-        versionCode 10203
-        versionName "1.2.3"
+        applicationId = "landenlabs.all_uicomponents"
+        minSdk = 26
+        targetSdk = 36
+        versionCode = 10203
+        versionName = "1.2.3"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled = false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     buildFeatures {
-        viewBinding true
+        viewBinding = true
     }
 }
 
