@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = 'landenlabs.all_uicomponents'
+    namespace = 'landenlabs.all_uidemo3'
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "landenlabs.all_uicomponents"
+        applicationId = "landenlabs.all_uidemo3"
         minSdk = 26
         targetSdk = 36
         versionCode = 10203

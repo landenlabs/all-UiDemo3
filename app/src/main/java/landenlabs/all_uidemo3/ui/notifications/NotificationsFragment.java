@@ -1,4 +1,4 @@
-package landenlabs.all_uicomponents.ui.notifications;
+package landenlabs.all_uidemo3.ui.notifications;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import landenlabs.all_uicomponents.databinding.FragmentNotificationsBinding;
+import landenlabs.all_uidemo3.databinding.FragmentNotificationsBinding;
 
 public class NotificationsFragment extends Fragment {
 

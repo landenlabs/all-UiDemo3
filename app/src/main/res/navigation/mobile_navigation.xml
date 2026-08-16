@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="landenlabs.all_uicomponents.ui.home.HomeFragment"
+        android:name="landenlabs.all_uidemo3.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_test1"
-        android:name="landenlabs.all_uicomponents.ui.test1.Test1Fragment"
+        android:name="landenlabs.all_uidemo3.ui.test1.Test1Fragment"
         android:label="@string/title_test1"
         tools:layout="@layout/fragment_test1" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="landenlabs.all_uicomponents.ui.notifications.NotificationsFragment"
+        android:name="landenlabs.all_uidemo3.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

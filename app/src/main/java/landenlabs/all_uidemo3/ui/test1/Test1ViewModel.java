@@ -1,4 +1,4 @@
-package landenlabs.all_uicomponents.ui.test1;
+package landenlabs.all_uidemo3.ui.test1;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

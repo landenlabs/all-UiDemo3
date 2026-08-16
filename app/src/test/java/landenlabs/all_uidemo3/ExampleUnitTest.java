@@ -1,4 +1,4 @@
-package landenlabs.all_uicomponents;
+package landenlabs.all_uidemo3;
 
 import org.junit.Test;
 

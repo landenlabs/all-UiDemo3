@@ -1,4 +1,4 @@
-package landenlabs.all_uicomponents;
+package landenlabs.all_uidemo3;
 
 import android.os.Bundle;
 
@@ -10,7 +10,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import landenlabs.all_uicomponents.databinding.ActivityMainBinding;
+import landenlabs.all_uidemo3.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "all-uicomponents"
+rootProject.name = "all-UiDemo3"
 include ':app'

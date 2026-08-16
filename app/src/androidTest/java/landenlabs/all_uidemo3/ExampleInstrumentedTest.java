@@ -1,4 +1,4 @@
-package landenlabs.all_uicomponents;
+package landenlabs.all_uidemo3;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("landenlabs.all_uicomponents", appContext.getPackageName());
+        assertEquals("landenlabs.all_uidemo3", appContext.getPackageName());
     }
 }
