@@ -7,7 +7,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "landenlabs.all_uidemo3"
+        applicationId = "com.landenlabs.all_UiDemo3"
         minSdk = 26
         targetSdk = 36
         versionCode = 10203
